@@ -1,12 +1,15 @@
 // create a new div element
-const newDiv = document.createElement("div");
+// (edit) create a new h2 tag
+const newheadertext = document.createElement("newheader");
 
 // and give it some content
-const newContent = document.createTextNode("Hi there and greetings!");
+const newContent = document.createTextNode("Hi welcome to my first html/js edit!");
 
 // add the text node to the newly created div
+// (edit) add new text for header to new h2 tag
 newDiv.appendChild(newContent);
 
 // add the newly created element and its content into the DOM
-const existingDiv = document.getElementById("my-target-element");
-document.body.appendChild(newDiv, existingDiv);
+// add (edit) new h2 tag element and its content to DOM
+const existingDiv = document.getElementById("my-new-head-target-element");
+document.body.appendChild(newheadertext, existingDiv);
